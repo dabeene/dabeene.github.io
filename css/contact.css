@@ -1,0 +1,115 @@
+@import url(reset.css);
+@import url(common.css);
+@import url(footer.css);
+
+.business_wrap {
+    width: 100%;
+    height: max-content;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.contact_title_wrap {
+    background-image: url("../img/contact_title_bg.png");
+}
+
+.business_wrap .title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #2c286c;
+}
+
+.business_section {
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.business_section .container {
+    width: 1000px;
+    height: 100%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.con_wrap1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.con_wrap1 p {
+    line-height: 24px;
+    color: #2c286c;
+    padding-bottom: 50px;
+}
+
+.con_wrap2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.con_box {
+    width: 230px;
+    height: 180px;
+    border: 1px solid #2c286c;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 0 0 0;
+}
+
+.con_box p {
+    line-height: 24px;
+}
+
+.con_box_txt1 {
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.location {
+    width: 1000px;
+    height: 453.5px;
+    border: 1px solid #2c286c;
+    overflow: hidden;
+}
+
+.location img {
+    max-width: 100%;
+    /* background-image: url(../img/location.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    transition: all 0.4s linear;
+}
+
+
+.location img:hover {
+    transform: scale(1.05);
+}
+
+.con_wrap3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.con_wrap3 p {
+    line-height: 24px;
+    color: #2c286c;
+    padding-bottom: 50px;
+}

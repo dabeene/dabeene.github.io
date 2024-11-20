@@ -1,0 +1,131 @@
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sub_section {
+    width: 100%;
+    height: max-content;
+    background-color: #2c286c;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.sub_con_wrap {
+    width: 100%;
+    height: 980px;
+    position: absolute;
+    top: 64.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+}
+
+.title_wrap {
+    width: 100%;
+    height: 475px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.line {
+    width: 75px;
+    height: 5px;
+    background-color: #2c286c;
+}
+
+.subtitle_txt {
+    font-size: 20px;
+    padding: 50px 0;
+    color: #2c286c;
+}
+
+
+/* --------------------- tab start --------------------- */
+
+
+.tab_nav {
+    width: 150px;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tab__item {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #2c286c;
+    border-right: 1px solid #2c286c;
+    /* background-color: rgba(255, 255, 255, 0.8);*/
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab__item:hover {
+    background-color: #fff;
+    transition-duration: 0.5s;
+}
+
+.tab__item:hover>.tab__item a {
+    color: #fff;
+}
+
+.tab__item:nth-child(1) {
+    border-top-left-radius: 20px;
+}
+
+.tab__item.active {
+    /* background-color: rgba(44, 40, 108, 0.8); */
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: none;
+}
+
+.tab__item.active>.tab__item a {
+    color: #fff;
+}
+
+.tab__content {
+    display: none;
+}
+
+.tab__content.active {
+    display: block;
+}
+
+
+/* --------------------- tab end --------------------- */
+
+
+.sub_con_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ------------------ sub 공통 영역 ------------------ */
